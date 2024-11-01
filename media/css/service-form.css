@@ -1,0 +1,149 @@
+/* Tidio Form */
+
+.tidio-form:after { 
+    clear: both; content: "."; display: block; height: 0; visibility: hidden; 
+}
+.tidio-form-item { 
+    display: block;
+    margin-bottom: 17px;
+}
+
+.tidio-form-item input,
+.tidio-form-item select,
+.tidio-form-item textarea{
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+    border: solid 2px #E9E9E9;
+    border-bottom-width: 4px;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.tidio-form-item select{
+    appearance:none;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    background: #FFF url('../img/i-d.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.tidio-form-item textarea{
+    height: 100px;
+}
+.tidio-form .form-footer{
+    text-align: right;
+    float: right;
+    width: 300px;
+	/*
+    background-image: url('../img/form-logo.png');
+    background-repeat: no-repeat;
+    background-position: left;
+	*/
+}
+
+.tidio-form div.form-footer .button-submit {
+	-webkit-transition-property: all;
+	transition-property: all;
+	-webkit-transition-duration: 150ms;
+	transition-duration: 150ms;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+}
+
+.tidio-form div.form-footer .button-submit,
+.tidio-form div.form-footer .button-submit:hover {
+    background: #009FF3;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    border-radius: 5px;
+	font-size: 16px;
+	width: auto;
+	padding: 8px 25px;
+
+}
+
+.tidio-form div.form-footer .button-submit:hover {
+	background: #428BCA;
+}
+
+/* Alert */
+
+/* Alert */
+
+.tidio-form .alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.tidio-form .alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+
+.tidio-form .alert .alert-link {
+  font-weight: bold;
+}
+
+
+.tidio-form .alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.tidio-form .alert-success hr {
+  border-top-color: #c9e2b3;
+}
+
+.tidio-form .alert-success .alert-link {
+  color: #2b542c;
+}
+
+.tidio-form .alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+
+.tidio-form .alert-info hr {
+  border-top-color: #a6e1ec;
+}
+
+.tidio-form .alert-info .alert-link {
+  color: #245269;
+}
+
+.tidio-form .alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+
+.tidio-form .alert-warning hr {
+  border-top-color: #f7e1b5;
+}
+
+.tidio-form .alert-warning .alert-link {
+  color: #66512c;
+}
+
+.tidio-form .alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.tidio-form .alert-danger hr {
+  border-top-color: #e4b9c0;
+}
+
+.tidio-form .alert-danger .alert-link {
+  color: #843534;
+}
+
